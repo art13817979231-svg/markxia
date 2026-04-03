@@ -12,6 +12,7 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",
     "framer-motion": "^11.14.1",
+    "google-tts-api": "^2.0.2",
     "lucide-react": "^0.474.0",
     "next": "14.2.25",
     "react": "18.3.1",

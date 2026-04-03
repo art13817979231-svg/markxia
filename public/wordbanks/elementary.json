@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "1",
+    "word": "apple",
+    "phonetic": "/ˈæpl/",
+    "chinese": "苹果",
+    "sentence": "I eat an apple every day.",
+    "sentenceZh": "我每天吃一个苹果。",
+    "paragraph": "I love fruit. I eat an apple every day after school. Apples are red, green, or yellow. They are sweet and healthy.",
+    "paragraphZh": "我喜欢水果。我每天放学后吃一个苹果。苹果有红色、绿色或黄色的。它们又甜又健康。"
+  },
+  {
+    "id": "2",
+    "word": "book",
+    "phonetic": "/bʊk/",
+    "chinese": "书",
+    "sentence": "I read a book before bed.",
+    "sentenceZh": "我睡前读一本书。",
+    "paragraph": "Books are wonderful. I read a book before bed every night. My favorite books have pictures and stories. Reading makes me happy.",
+    "paragraphZh": "书是美好的。我每晚睡前读一本书。我最喜欢有图画和故事的书。阅读让我快乐。"
+  },
+  {
+    "id": "3",
+    "word": "cat",
+    "phonetic": "/kæt/",
+    "chinese": "猫",
+    "sentence": "My cat is white and soft.",
+    "sentenceZh": "我的猫是白色的，毛茸茸的。",
+    "paragraph": "I have a pet cat. My cat is white and soft. She likes to sleep in the sun. I play with her every afternoon.",
+    "paragraphZh": "我有一只宠物猫。我的猫是白色的，毛茸茸的。她喜欢在阳光下睡觉。我每天下午和她玩。"
+  },
+  {
+    "id": "4",
+    "word": "dog",
+    "phonetic": "/dɔːɡ/",
+    "chinese": "狗",
+    "sentence": "The dog is big and friendly.",
+    "sentenceZh": "这只狗又大又友善。",
+    "paragraph": "We have a dog at home. The dog is big and friendly. He wags his tail when I come back from school. I love my dog very much.",
+    "paragraphZh": "我们家有一只狗。这只狗又大又友善。我放学回家时他会摇尾巴。我非常爱我的狗。"
+  },
+  {
+    "id": "5",
+    "word": "sun",
+    "phonetic": "/sʌn/",
+    "chinese": "太阳",
+    "sentence": "The sun shines bright today.",
+    "sentenceZh": "今天太阳照得很亮。",
+    "paragraph": "I love sunny days. The sun shines bright today and the sky is blue. We can play outside and run in the park. The sun makes everything warm.",
+    "paragraphZh": "我喜欢晴天。今天太阳照得很亮，天空是蓝色的。我们可以在外面玩，在公园里跑步。太阳让一切都变得温暖。"
+  },
+  {
+    "id": "6",
+    "word": "tree",
+    "phonetic": "/triː/",
+    "chinese": "树",
+    "sentence": "There is a big tree in our yard.",
+    "sentenceZh": "我们院子里有一棵大树。",
+    "paragraph": "I love our yard. There is a big tree in our yard. Birds sit on its branches and sing every morning. I like to sit under the tree and read.",
+    "paragraphZh": "我爱我们的院子。我们院子里有一棵大树。鸟儿每天早上坐在树枝上唱歌。我喜欢坐在树下读书。"
+  },
+  {
+    "id": "7",
+    "word": "bird",
+    "phonetic": "/bɜːrd/",
+    "chinese": "鸟",
+    "sentence": "A little bird sings in the tree.",
+    "sentenceZh": "一只小鸟在树上唱歌。",
+    "paragraph": "I wake up early each morning. A little bird sings in the tree outside my window. Its song is sweet and cheerful. I smile every time I hear it.",
+    "paragraphZh": "我每天早上早早醒来。一只小鸟在我窗外的树上唱歌。它的歌声甜美而欢快。每次听到它唱歌我都会微笑。"
+  },
+  {
+    "id": "8",
+    "word": "fish",
+    "phonetic": "/fɪʃ/",
+    "chinese": "鱼",
+    "sentence": "I see many fish in the pond.",
+    "sentenceZh": "我在池塘里看到很多鱼。",
+    "paragraph": "There is a pond near my house. I see many fish in the pond. They swim fast and have bright colors. I like to watch them after school.",
+    "paragraphZh": "我家附近有一个池塘。我在池塘里看到很多鱼。它们游得很快，颜色鲜艳。我喜欢放学后看着它们。"
+  },
+  {
+    "id": "9",
+    "word": "flower",
+    "phonetic": "/ˈflaʊər/",
+    "chinese": "花",
+    "sentence": "This red flower smells very nice.",
+    "sentenceZh": "这朵红花闻起来很香。",
+    "paragraph": "My mom has a garden. There are many flowers in it. This red flower smells very nice. I help water the flowers every weekend.",
+    "paragraphZh": "我妈妈有一个花园。里面有很多花。这朵红花闻起来很香。我每个周末帮忙给花浇水。"
+  },
+  {
+    "id": "10",
+    "word": "water",
+    "phonetic": "/ˈwɔːtər/",
+    "chinese": "水",
+    "sentence": "I drink water eight times a day.",
+    "sentenceZh": "我每天喝八次水。",
+    "paragraph": "Water is very important for our body. I drink water eight times a day. It keeps me healthy and full of energy. I always carry a bottle of water to school.",
+    "paragraphZh": "水对我们的身体非常重要。我每天喝八次水。它让我保持健康，充满活力。我总是带着一瓶水去上学。"
+  },
+  {
+    "id": "11",
+    "word": "school",
+    "phonetic": "/skuːl/",
+    "chinese": "学校",
+    "sentence": "I go to school every morning.",
+    "sentenceZh": "我每天早上去上学。",
+    "paragraph": "I like my school very much. I go to school every morning at eight o'clock. My teacher is kind and funny. I have many good friends at school.",
+    "paragraphZh": "我非常喜欢我的学校。我每天早上八点去上学。我的老师既善良又有趣。我在学校有很多好朋友。"
+  },
+  {
+    "id": "12",
+    "word": "teacher",
+    "phonetic": "/ˈtiːtʃər/",
+    "chinese": "老师",
+    "sentence": "My teacher is kind and helpful.",
+    "sentenceZh": "我的老师既善良又乐于助人。",
+    "paragraph": "I have a great teacher this year. My teacher is kind and helpful. She explains everything clearly. I always feel comfortable asking her questions.",
+    "paragraphZh": "今年我有一位很棒的老师。我的老师既善良又乐于助人。她把每件事都解释得很清楚。我总是可以轻松地向她提问。"
+  },
+  {
+    "id": "13",
+    "word": "friend",
+    "phonetic": "/frend/",
+    "chinese": "朋友",
+    "sentence": "My best friend lives next door.",
+    "sentenceZh": "我最好的朋友住在隔壁。",
+    "paragraph": "I am very lucky. My best friend lives next door. We walk to school together every day. We share our snacks and help each other with homework.",
+    "paragraphZh": "我非常幸运。我最好的朋友住在隔壁。我们每天一起走路上学。我们分享零食，互相帮助做作业。"
+  },
+  {
+    "id": "14",
+    "word": "family",
+    "phonetic": "/ˈfæməli/",
+    "chinese": "家庭",
+    "sentence": "My family has four members.",
+    "sentenceZh": "我的家里有四个成员。",
+    "paragraph": "I love my family. My family has four members: my dad, my mom, my sister, and me. We have dinner together every evening and talk about our day.",
+    "paragraphZh": "我爱我的家人。我的家里有四个成员：我爸爸、我妈妈、我妹妹和我。我们每天晚上一起吃饭，聊聊我们的一天。"
+  },
+  {
+    "id": "15",
+    "word": "home",
+    "phonetic": "/hoʊm/",
+    "chinese": "家",
+    "sentence": "I feel safe and warm at home.",
+    "sentenceZh": "我在家里感到安全和温暖。",
+    "paragraph": "My home is small but cozy. I feel safe and warm at home. My mom always cooks delicious food. After school, home is the best place to be.",
+    "paragraphZh": "我的家虽小但舒适。我在家里感到安全和温暖。我妈妈总是做美味的饭菜。放学后，家是最好的去处。"
+  },
+  {
+    "id": "16",
+    "word": "food",
+    "phonetic": "/fuːd/",
+    "chinese": "食物",
+    "sentence": "My favorite food is fried rice.",
+    "sentenceZh": "我最喜欢的食物是炒饭。",
+    "paragraph": "Food gives us energy to play and learn. My favorite food is fried rice. My dad makes it on weekends. It smells amazing and tastes even better.",
+    "paragraphZh": "食物给我们玩耍和学习的能量。我最喜欢的食物是炒饭。我爸爸在周末做。它闻起来很香，味道更好。"
+  },
+  {
+    "id": "17",
+    "word": "milk",
+    "phonetic": "/mɪlk/",
+    "chinese": "牛奶",
+    "sentence": "I drink a glass of milk each morning.",
+    "sentenceZh": "我每天早上喝一杯牛奶。",
+    "paragraph": "Milk is good for children. I drink a glass of milk each morning before school. It helps my bones grow strong. My mom always reminds me to finish it.",
+    "paragraphZh": "牛奶对孩子好。我每天早上上学前喝一杯牛奶。它帮助我的骨骼变得强壮。我妈妈总是提醒我喝完它。"
+  },
+  {
+    "id": "18",
+    "word": "bread",
+    "phonetic": "/bred/",
+    "chinese": "面包",
+    "sentence": "I eat bread with butter for breakfast.",
+    "sentenceZh": "我早餐吃涂了黄油的面包。",
+    "paragraph": "Breakfast is the most important meal. I eat bread with butter for breakfast every day. It is soft and delicious. A good breakfast helps me focus in class.",
+    "paragraphZh": "早餐是最重要的一餐。我每天早餐吃涂了黄油的面包。它又软又好吃。吃好早餐帮助我在课堂上集中注意力。"
+  },
+  {
+    "id": "19",
+    "word": "ball",
+    "phonetic": "/bɔːl/",
+    "chinese": "球",
+    "sentence": "We kick the ball at the playground.",
+    "sentenceZh": "我们在操场上踢球。",
+    "paragraph": "I love playing outside. We kick the ball at the playground after school. My friend kicks very fast. We laugh and run until it gets dark.",
+    "paragraphZh": "我喜欢在外面玩。我们放学后在操场上踢球。我的朋友踢得很快。我们一直笑着跑，直到天黑。"
+  },
+  {
+    "id": "20",
+    "word": "game",
+    "phonetic": "/ɡeɪm/",
+    "chinese": "游戏",
+    "sentence": "We play a fun game after lunch.",
+    "sentenceZh": "我们午饭后玩一个有趣的游戏。",
+    "paragraph": "Lunchtime is exciting at school. We play a fun game after lunch in the yard. Today we played hide and seek. Everyone was laughing and having a great time.",
+    "paragraphZh": "学校的午餐时间很令人兴奋。我们午饭后在院子里玩一个有趣的游戏。今天我们玩了捉迷藏。每个人都在笑，玩得很开心。"
+  },
+  {
+    "id": "21",
+    "word": "park",
+    "phonetic": "/pɑːrk/",
+    "chinese": "公园",
+    "sentence": "We go to the park on weekends.",
+    "sentenceZh": "我们周末去公园。",
+    "paragraph": "Weekends are my favorite. We go to the park on weekends as a family. My dad pushes me on the swing. My mom watches and takes pictures. It is so much fun.",
+    "paragraphZh": "周末是我最喜欢的。我们周末全家去公园。我爸爸推我荡秋千。我妈妈看着我们拍照。真的很好玩。"
+  },
+  {
+    "id": "22",
+    "word": "rain",
+    "phonetic": "/reɪn/",
+    "chinese": "雨",
+    "sentence": "I like the sound of rain on the roof.",
+    "sentenceZh": "我喜欢雨打屋顶的声音。",
+    "paragraph": "Rainy days are cozy. I like the sound of rain on the roof when I am inside. I sit by the window with a warm drink and read my favorite book. It feels peaceful and calm.",
+    "paragraphZh": "雨天很温馨。我喜欢待在室内听雨打屋顶的声音。我坐在窗边，喝着热饮，读我最喜欢的书。感觉平静而安详。"
+  },
+  {
+    "id": "23",
+    "word": "snow",
+    "phonetic": "/snoʊ/",
+    "chinese": "雪",
+    "sentence": "Snow is white and very cold.",
+    "sentenceZh": "雪是白色的，非常冷。",
+    "paragraph": "Winter is magical. Snow is white and very cold. When it snows, we put on warm coats and go outside. We make snowballs and build a snowman together.",
+    "paragraphZh": "冬天是神奇的。雪是白色的，非常冷。下雪的时候，我们穿上厚外套出去玩。我们一起打雪仗，堆雪人。"
+  },
+  {
+    "id": "24",
+    "word": "wind",
+    "phonetic": "/wɪnd/",
+    "chinese": "风",
+    "sentence": "The wind blows leaves off the trees.",
+    "sentenceZh": "风把树叶从树上吹落。",
+    "paragraph": "Autumn is a beautiful season. The wind blows leaves off the trees. Red and yellow leaves fly through the air. I love to jump into a pile of fallen leaves.",
+    "paragraphZh": "秋天是一个美丽的季节。风把树叶从树上吹落。红色和黄色的树叶在空中飞舞。我喜欢跳进一堆落叶里。"
+  },
+  {
+    "id": "25",
+    "word": "sky",
+    "phonetic": "/skaɪ/",
+    "chinese": "天空",
+    "sentence": "The sky is full of bright stars tonight.",
+    "sentenceZh": "今晚天空中布满了明亮的星星。",
+    "paragraph": "I love looking up at night. The sky is full of bright stars tonight. My dad showed me the Big Dipper. One day I want to learn all the constellations.",
+    "paragraphZh": "我喜欢夜晚仰望天空。今晚天空中布满了明亮的星星。我爸爸给我指了北斗七星。有一天我想学会所有的星座。"
+  },
+  {
+    "id": "26",
+    "word": "moon",
+    "phonetic": "/muːn/",
+    "chinese": "月亮",
+    "sentence": "The moon is round and bright tonight.",
+    "sentenceZh": "今晚的月亮又圆又亮。",
+    "paragraph": "I look out my window at night. The moon is round and bright tonight. It lights up the whole yard. I wonder what it would be like to stand on the moon.",
+    "paragraphZh": "我晚上看向窗外。今晚的月亮又圆又亮。它照亮了整个院子。我想知道站在月球上会是什么感觉。"
+  },
+  {
+    "id": "27",
+    "word": "star",
+    "phonetic": "/stɑːr/",
+    "chinese": "星星",
+    "sentence": "I made a wish upon a star last night.",
+    "sentenceZh": "昨晚我对着一颗星星许下愿望。",
+    "paragraph": "I believe in wishes. I made a wish upon a star last night. I wished for good health for my family. I hope the star heard me. The sky looked so beautiful.",
+    "paragraphZh": "我相信愿望。昨晚我对着一颗星星许下愿望。我为我的家人祈求身体健康。我希望那颗星星听到了我的愿望。天空看起来太美了。"
+  },
+  {
+    "id": "28",
+    "word": "happy",
+    "phonetic": "/ˈhæpi/",
+    "chinese": "快乐的；高兴的",
+    "sentence": "I feel happy when I am with my friends.",
+    "sentenceZh": "和朋友在一起时我感到快乐。",
+    "paragraph": "Friendship is a wonderful thing. I feel happy when I am with my friends. We laugh together and play games. Being with people I love always makes me smile.",
+    "paragraphZh": "友谊是一件美好的事。和朋友在一起时我感到快乐。我们一起笑，一起玩游戏。和我爱的人在一起总是让我微笑。"
+  },
+  {
+    "id": "29",
+    "word": "big",
+    "phonetic": "/bɪɡ/",
+    "chinese": "大的",
+    "sentence": "The elephant is the biggest animal on land.",
+    "sentenceZh": "大象是陆地上最大的动物。",
+    "paragraph": "I love learning about animals. The elephant is the biggest animal on land. It has a long trunk and big ears. Elephants are very smart and gentle creatures.",
+    "paragraphZh": "我喜欢学习动物知识。大象是陆地上最大的动物。它有一个长鼻子和大耳朵。大象是非常聪明和温柔的生物。"
+  },
+  {
+    "id": "30",
+    "word": "small",
+    "phonetic": "/smɔːl/",
+    "chinese": "小的",
+    "sentence": "The puppy is very small and cute.",
+    "sentenceZh": "这只小狗非常小，非常可爱。",
+    "paragraph": "My neighbor just got a new puppy. The puppy is very small and cute. It fits in the palm of my hand. I visit it every day after school.",
+    "paragraphZh": "我的邻居刚得到了一只新小狗。这只小狗非常小，非常可爱。它可以放在我的手心里。我每天放学后去看它。"
+  },
+  {
+    "id": "31",
+    "word": "fast",
+    "phonetic": "/fæst/",
+    "chinese": "快的；迅速地",
+    "sentence": "The rabbit runs very fast.",
+    "sentenceZh": "兔子跑得非常快。",
+    "paragraph": "I saw a rabbit in the field today. The rabbit runs very fast when it is scared. It jumped over a log and disappeared into the bushes. I could not believe how quick it was.",
+    "paragraphZh": "今天我在田野里看到一只兔子。兔子害怕的时候跑得非常快。它跳过一根木头，消失在灌木丛中。我无法相信它跑得那么快。"
+  },
+  {
+    "id": "32",
+    "word": "slow",
+    "phonetic": "/sloʊ/",
+    "chinese": "慢的；缓慢地",
+    "sentence": "The turtle walks very slow but never gives up.",
+    "sentenceZh": "乌龟走得非常慢，但从不放弃。",
+    "paragraph": "In class we read about the tortoise and the hare. The turtle walks very slow but never gives up. It kept going and going until it reached the finish line. Hard work always pays off.",
+    "paragraphZh": "在课堂上我们读了乌龟和兔子的故事。乌龟走得非常慢，但从不放弃。它一直走，一直走，直到到达终点线。努力工作总是有回报的。"
+  },
+  {
+    "id": "33",
+    "word": "hot",
+    "phonetic": "/hɒt/",
+    "chinese": "热的",
+    "sentence": "The soup is too hot to drink now.",
+    "sentenceZh": "这汤现在太热了，喝不了。",
+    "paragraph": "My mom made soup for dinner. The soup is too hot to drink now. I have to wait for it to cool down. It smells so good that I can barely be patient.",
+    "paragraphZh": "我妈妈做了汤当晚餐。这汤现在太热了，喝不了。我必须等它冷却下来。它闻起来太香了，我几乎没有耐心等待。"
+  },
+  {
+    "id": "34",
+    "word": "cold",
+    "phonetic": "/koʊld/",
+    "chinese": "冷的；感冒",
+    "sentence": "It is very cold outside today.",
+    "sentenceZh": "今天外面非常冷。",
+    "paragraph": "I woke up this morning and looked outside. It is very cold outside today. I put on my thick coat, scarf, and gloves. I could see my breath in the cold air.",
+    "paragraphZh": "今天早上我醒来看向窗外。今天外面非常冷。我穿上厚外套、围巾和手套。我能在冷空气中看到自己的呼吸。"
+  },
+  {
+    "id": "35",
+    "word": "color",
+    "phonetic": "/ˈkʌlər/",
+    "chinese": "颜色",
+    "sentence": "My favorite color is blue like the sky.",
+    "sentenceZh": "我最喜欢的颜色是像天空一样的蓝色。",
+    "paragraph": "Art class is my favorite subject. My favorite color is blue like the sky. I use blue paint to draw the ocean in my pictures. My teacher says I have a good eye for color.",
+    "paragraphZh": "美术课是我最喜欢的科目。我最喜欢的颜色是像天空一样的蓝色。我用蓝色颜料在图画中画海洋。我的老师说我对颜色有很好的感觉。"
+  },
+  {
+    "id": "36",
+    "word": "red",
+    "phonetic": "/red/",
+    "chinese": "红色",
+    "sentence": "She wore a beautiful red dress today.",
+    "sentenceZh": "她今天穿了一件漂亮的红色裙子。",
+    "paragraph": "Today was a special day at school. She wore a beautiful red dress today for the school concert. Everyone clapped when she walked onto the stage. She looked so confident and pretty.",
+    "paragraphZh": "今天是学校里特别的日子。她今天穿了一件漂亮的红色裙子参加学校音乐会。她走上舞台时每个人都鼓掌了。她看起来非常自信和漂亮。"
+  },
+  {
+    "id": "37",
+    "word": "blue",
+    "phonetic": "/bluː/",
+    "chinese": "蓝色",
+    "sentence": "The ocean is deep blue and beautiful.",
+    "sentenceZh": "海洋是深蓝色的，非常美丽。",
+    "paragraph": "Last summer we visited the beach. The ocean is deep blue and beautiful. I stood at the edge and felt the cool waves on my feet. I want to go back every year.",
+    "paragraphZh": "去年夏天我们去了海滩。海洋是深蓝色的，非常美丽。我站在边缘，感受着凉爽的海浪拍打我的脚。我想每年都回去。"
+  },
+  {
+    "id": "38",
+    "word": "green",
+    "phonetic": "/ɡriːn/",
+    "chinese": "绿色",
+    "sentence": "Eating green vegetables is good for you.",
+    "sentenceZh": "吃绿色蔬菜对你有好处。",
+    "paragraph": "My mom always puts vegetables on my plate. Eating green vegetables is good for you. I used to not like them, but now I think broccoli and peas are actually quite tasty.",
+    "paragraphZh": "我妈妈总是把蔬菜放在我的盘子里。吃绿色蔬菜对你有好处。我以前不喜欢它们，但现在我觉得西兰花和豌豆其实很好吃。"
+  },
+  {
+    "id": "39",
+    "word": "yellow",
+    "phonetic": "/ˈjeloʊ/",
+    "chinese": "黄色",
+    "sentence": "The banana is yellow and sweet.",
+    "sentenceZh": "香蕉是黄色的，甜甜的。",
+    "paragraph": "I always have fruit in my lunchbox. The banana is yellow and sweet. I peel it carefully and eat it slowly. It gives me lots of energy for the afternoon.",
+    "paragraphZh": "我的午餐盒里总是有水果。香蕉是黄色的，甜甜的。我仔细地剥开它，慢慢地吃。它给我下午的课提供了很多能量。"
+  },
+  {
+    "id": "40",
+    "word": "number",
+    "phonetic": "/ˈnʌmbər/",
+    "chinese": "数字；数量",
+    "sentence": "My lucky number is seven.",
+    "sentenceZh": "我的幸运数字是七。",
+    "paragraph": "Everyone has a lucky number. My lucky number is seven. My birthday is on the seventh of May. Whenever I see a seven, I think something good will happen.",
+    "paragraphZh": "每个人都有一个幸运数字。我的幸运数字是七。我的生日是五月七日。每当我看到七，我就觉得会有好事发生。"
+  },
+  {
+    "id": "41",
+    "word": "letter",
+    "phonetic": "/ˈletər/",
+    "chinese": "信；字母",
+    "sentence": "I wrote a letter to my grandma.",
+    "sentenceZh": "我给奶奶写了一封信。",
+    "paragraph": "I miss my grandma a lot. I wrote a letter to my grandma last Sunday. I told her about school and my new friends. She called to say she loved my letter.",
+    "paragraphZh": "我非常想念我的奶奶。上周日我给奶奶写了一封信。我告诉她关于学校和我的新朋友的事。她打电话说她很喜欢我的信。"
+  },
+  {
+    "id": "42",
+    "word": "draw",
+    "phonetic": "/drɔː/",
+    "chinese": "画；绘画",
+    "sentence": "I love to draw animals in my notebook.",
+    "sentenceZh": "我喜欢在笔记本上画动物。",
+    "paragraph": "I have a special notebook just for drawing. I love to draw animals in my notebook. My favorite things to draw are horses and dolphins. My classmates always ask to see my drawings.",
+    "paragraphZh": "我有一个专门用来画画的本子。我喜欢在笔记本上画动物。我最喜欢画的是马和海豚。我的同学总是要求看我的画。"
+  },
+  {
+    "id": "43",
+    "word": "sing",
+    "phonetic": "/sɪŋ/",
+    "chinese": "唱歌",
+    "sentence": "We sing a song together every morning.",
+    "sentenceZh": "我们每天早上一起唱歌。",
+    "paragraph": "Our class starts each day with music. We sing a song together every morning. It makes everyone feel awake and cheerful. My favorite song is about a rainbow.",
+    "paragraphZh": "我们班每天以音乐开始一天的学习。我们每天早上一起唱歌。这让每个人都感到精神振奋，心情愉快。我最喜欢的歌是关于彩虹的。"
+  },
+  {
+    "id": "44",
+    "word": "dance",
+    "phonetic": "/dæns/",
+    "chinese": "跳舞；舞蹈",
+    "sentence": "She loves to dance in the living room.",
+    "sentenceZh": "她喜欢在客厅里跳舞。",
+    "paragraph": "Music makes my sister very happy. She loves to dance in the living room after school. She makes up her own moves and laughs the whole time. She always pulls me up to dance with her.",
+    "paragraphZh": "音乐让我妹妹非常开心。她喜欢放学后在客厅里跳舞。她自己编动作，全程大笑。她总是拉着我和她一起跳舞。"
+  },
+  {
+    "id": "45",
+    "word": "run",
+    "phonetic": "/rʌn/",
+    "chinese": "跑；奔跑",
+    "sentence": "I run every morning to stay fit.",
+    "sentenceZh": "我每天早上跑步保持健康。",
+    "paragraph": "Exercise keeps me strong and healthy. I run every morning to stay fit. I start with five minutes and try to go a little longer each week. It feels great to breathe the fresh morning air.",
+    "paragraphZh": "锻炼让我强壮健康。我每天早上跑步保持健康。我从五分钟开始，每周尝试多跑一点。呼吸新鲜的早晨空气感觉很好。"
+  },
+  {
+    "id": "46",
+    "word": "jump",
+    "phonetic": "/dʒʌmp/",
+    "chinese": "跳；跳跃",
+    "sentence": "I can jump really high on the trampoline.",
+    "sentenceZh": "我在蹦床上可以跳得很高。",
+    "paragraph": "My cousin has a trampoline in her garden. I can jump really high on the trampoline. We bounce together until we are out of breath. It is one of my favorite outdoor activities.",
+    "paragraphZh": "我表妹的花园里有一个蹦床。我在蹦床上可以跳得很高。我们一起弹跳，直到上气不接下气。这是我最喜欢的户外活动之一。"
+  },
+  {
+    "id": "47",
+    "word": "sleep",
+    "phonetic": "/sliːp/",
+    "chinese": "睡觉；睡眠",
+    "sentence": "I sleep for nine hours every night.",
+    "sentenceZh": "我每晚睡九个小时。",
+    "paragraph": "Getting enough sleep is very important for children. I sleep for nine hours every night. When I wake up I feel refreshed and ready to learn. My mom always turns off the lights at nine.",
+    "paragraphZh": "充足的睡眠对孩子非常重要。我每晚睡九个小时。当我醒来时，我感到精神焕发，准备好学习了。我妈妈总是在九点关灯。"
+  },
+  {
+    "id": "48",
+    "word": "eat",
+    "phonetic": "/iːt/",
+    "chinese": "吃",
+    "sentence": "We eat three meals every day.",
+    "sentenceZh": "我们每天吃三顿饭。",
+    "paragraph": "A good routine helps us stay healthy. We eat three meals every day: breakfast, lunch, and dinner. My favorite meal is dinner because the whole family is together at the table.",
+    "paragraphZh": "良好的规律有助于我们保持健康。我们每天吃三顿饭：早餐、午餐和晚餐。我最喜欢的一餐是晚餐，因为全家人都在桌旁。"
+  },
+  {
+    "id": "49",
+    "word": "drink",
+    "phonetic": "/drɪŋk/",
+    "chinese": "喝；饮料",
+    "sentence": "Remember to drink water after exercise.",
+    "sentenceZh": "记得运动后喝水。",
+    "paragraph": "Staying hydrated is very important. Remember to drink water after exercise because your body loses water when you sweat. I always keep a bottle of water in my school bag.",
+    "paragraphZh": "保持水分非常重要。记得运动后喝水，因为你的身体在出汗时会失去水分。我总是在书包里放一瓶水。"
+  },
+  {
+    "id": "50",
+    "word": "play",
+    "phonetic": "/pleɪ/",
+    "chinese": "玩；游戏",
+    "sentence": "Children need time to play every day.",
+    "sentenceZh": "孩子们每天都需要时间玩耍。",
+    "paragraph": "Play is important for growing children. Children need time to play every day to develop creativity and social skills. My favorite time of day is recess when we run around outside.",
+    "paragraphZh": "玩耍对成长中的孩子很重要。孩子们每天都需要时间玩耍，以培养创造力和社交技能。一天中我最喜欢的时间是课间休息，我们在外面跑来跑去。"
+  },
+  {
+    "id": "51",
+    "word": "help",
+    "phonetic": "/help/",
+    "chinese": "帮助",
+    "sentence": "I always help my mom wash the dishes.",
+    "sentenceZh": "我总是帮妈妈洗碗。",
+    "paragraph": "Helping at home is something I enjoy. I always help my mom wash the dishes after dinner. It only takes ten minutes, and my mom smiles and says thank you every time.",
+    "paragraphZh": "在家帮忙是我喜欢做的事。我总是在晚饭后帮妈妈洗碗。只需要十分钟，我妈妈每次都会微笑着说谢谢。"
+  },
+  {
+    "id": "52",
+    "word": "share",
+    "phonetic": "/ʃer/",
+    "chinese": "分享；共享",
+    "sentence": "Good friends always share with each other.",
+    "sentenceZh": "好朋友总是互相分享。",
+    "paragraph": "Sharing makes friendships stronger. Good friends always share with each other. I share my snacks with my classmates and they share theirs with me. It feels good to be generous.",
+    "paragraphZh": "分享使友谊更牢固。好朋友总是互相分享。我和同学们分享我的零食，他们也和我分享他们的。慷慨的感觉很好。"
+  },
+  {
+    "id": "53",
+    "word": "learn",
+    "phonetic": "/lɜːrn/",
+    "chinese": "学习；学会",
+    "sentence": "I want to learn how to swim this summer.",
+    "sentenceZh": "我这个夏天想学会游泳。",
+    "paragraph": "Summer is a great time to pick up new skills. I want to learn how to swim this summer. My parents signed me up for swimming lessons at the community pool. I am both nervous and excited.",
+    "paragraphZh": "夏天是学习新技能的好时机。我这个夏天想学会游泳。我的父母给我报名参加了社区游泳池的游泳课。我既紧张又兴奋。"
+  },
+  {
+    "id": "54",
+    "word": "count",
+    "phonetic": "/kaʊnt/",
+    "chinese": "数；计数",
+    "sentence": "I can count to one hundred now.",
+    "sentenceZh": "我现在能数到一百了。",
+    "paragraph": "Math class is getting more fun. I can count to one hundred now without making any mistakes. My teacher gave me a gold star sticker. I felt very proud of myself.",
+    "paragraphZh": "数学课越来越有趣了。我现在能数到一百了，一个错误都没有。我的老师给了我一个金星贴纸。我为自己感到非常骄傲。"
+  },
+  {
+    "id": "55",
+    "word": "write",
+    "phonetic": "/raɪt/",
+    "chinese": "写；书写",
+    "sentence": "I write in my diary every night.",
+    "sentenceZh": "我每晚在日记本上写日记。",
+    "paragraph": "Writing helps me remember important things. I write in my diary every night before I sleep. I write about what happened that day and how I felt. It is my own private world.",
+    "paragraphZh": "写作帮助我记住重要的事情。我每晚睡前在日记本上写日记。我写当天发生的事情和我的感受。它是我自己的私人世界。"
+  },
+  {
+    "id": "56",
+    "word": "read",
+    "phonetic": "/riːd/",
+    "chinese": "阅读；读",
+    "sentence": "I read two books every week.",
+    "sentenceZh": "我每周读两本书。",
+    "paragraph": "Reading is one of my favorite hobbies. I read two books every week. Some are funny stories, and some are adventure books. Every book teaches me something new about the world.",
+    "paragraphZh": "阅读是我最喜欢的爱好之一。我每周读两本书。有些是有趣的故事，有些是冒险书。每本书都教会我关于世界的新事物。"
+  },
+  {
+    "id": "57",
+    "word": "please",
+    "phonetic": "/pliːz/",
+    "chinese": "请；取悦",
+    "sentence": "Please close the door gently.",
+    "sentenceZh": "请轻轻地关上门。",
+    "paragraph": "Manners are very important at home and school. Please close the door gently when others are sleeping. Being thoughtful of others shows kindness and respect, two things our teacher talks about every day.",
+    "paragraphZh": "礼貌在家里和学校都非常重要。当别人睡觉时请轻轻地关上门。体贴他人表现出善良和尊重，这是我们老师每天都会提到的两件事。"
+  },
+  {
+    "id": "58",
+    "word": "sorry",
+    "phonetic": "/ˈsɒri/",
+    "chinese": "对不起；抱歉",
+    "sentence": "I said sorry when I broke her crayon.",
+    "sentenceZh": "当我弄断她的蜡笔时，我说了对不起。",
+    "paragraph": "Saying sorry is very important. I said sorry when I broke her crayon by accident. She smiled and forgave me right away. A simple apology can fix many problems between friends.",
+    "paragraphZh": "说对不起非常重要。当我不小心弄断她的蜡笔时，我说了对不起。她微笑着立刻原谅了我。一个简单的道歉可以解决朋友之间的很多问题。"
+  },
+  {
+    "id": "59",
+    "word": "thank",
+    "phonetic": "/θæŋk/",
+    "chinese": "感谢；谢谢",
+    "sentence": "I always thank my teacher after class.",
+    "sentenceZh": "我总是在课后感谢我的老师。",
+    "paragraph": "Showing gratitude is a wonderful habit. I always thank my teacher after class for teaching us. She always smiles warmly. Little acts of appreciation can brighten someone's whole day.",
+    "paragraphZh": "表示感谢是一个很好的习惯。我总是在课后感谢我的老师教导我们。她总是温暖地微笑。小小的感激之情可以让别人的整个一天都明亮起来。"
+  },
+  {
+    "id": "60",
+    "word": "kind",
+    "phonetic": "/kaɪnd/",
+    "chinese": "善良的；亲切的",
+    "sentence": "It is important to be kind to everyone.",
+    "sentenceZh": "对每个人都保持善良很重要。",
+    "paragraph": "Kindness costs nothing but means everything. It is important to be kind to everyone, especially people who are having a hard day. A smile or a kind word can make a big difference in someone's life.",
+    "paragraphZh": "善良不需要任何代价，但意义重大。对每个人都保持善良很重要，尤其是那些过得很艰难的人。一个微笑或一句善意的话可以对某人的生活产生很大的改变。"
+  },
+  {
+    "id": "61",
+    "word": "brave",
+    "phonetic": "/breɪv/",
+    "chinese": "勇敢的",
+    "sentence": "She was brave enough to try again.",
+    "sentenceZh": "她足够勇敢，再次尝试了。",
+    "paragraph": "Falling down is part of learning. She was brave enough to try again after failing the first time. She got back on her bike, took a deep breath, and this time she rode all the way down the street.",
+    "paragraphZh": "摔倒是学习的一部分。她在第一次失败后足够勇敢，再次尝试了。她重新骑上自行车，深吸一口气，这次她一路骑到了街道尽头。"
+  },
+  {
+    "id": "62",
+    "word": "clean",
+    "phonetic": "/kliːn/",
+    "chinese": "干净的；清洁",
+    "sentence": "I keep my room clean every day.",
+    "sentenceZh": "我每天保持房间干净整洁。",
+    "paragraph": "Having a tidy space helps me think clearly. I keep my room clean every day by putting things back where they belong. When my room is neat, I feel calm and ready to study.",
+    "paragraphZh": "整洁的空间帮助我思考清晰。我每天把东西放回原处，保持房间干净整洁。当我的房间整齐时，我感到平静，准备好学习。"
+  },
+  {
+    "id": "63",
+    "word": "quiet",
+    "phonetic": "/ˈkwaɪət/",
+    "chinese": "安静的；寂静",
+    "sentence": "Please be quiet during the exam.",
+    "sentenceZh": "考试期间请保持安静。",
+    "paragraph": "Respect for others matters in every situation. Please be quiet during the exam so that everyone can concentrate and do their best work. Helping others succeed is also a form of kindness.",
+    "paragraphZh": "在任何情况下对他人的尊重都很重要。考试期间请保持安静，这样每个人都能集中注意力，发挥出最好的水平。帮助他人成功也是一种善良。"
+  },
+  {
+    "id": "64",
+    "word": "smart",
+    "phonetic": "/smɑːrt/",
+    "chinese": "聪明的；伶俐的",
+    "sentence": "You are very smart for figuring that out.",
+    "sentenceZh": "你能想出这个答案真的很聪明。",
+    "paragraph": "My friend solved the puzzle before anyone else. I told her she is very smart for figuring that out so quickly. She smiled shyly and said she just kept trying. Smart and hardworking always go together.",
+    "paragraphZh": "我的朋友比任何人都先解开了谜题。我告诉她，她能这么快想出来真的很聪明。她害羞地微笑着说她只是一直在尝试。聪明和勤奋总是相辅相成的。"
+  },
+  {
+    "id": "65",
+    "word": "strong",
+    "phonetic": "/strɒŋ/",
+    "chinese": "强壮的；坚强的",
+    "sentence": "Exercise makes your body strong.",
+    "sentenceZh": "锻炼使你的身体强壮。",
+    "paragraph": "Taking care of your body is very important. Exercise makes your body strong and helps your mind stay sharp too. Even walking for thirty minutes a day can make a big difference to your health.",
+    "paragraphZh": "照顾好你的身体非常重要。锻炼使你的身体强壮，也有助于你的思维保持敏锐。即使每天步行三十分钟也能对你的健康产生很大影响。"
+  },
+  {
+    "id": "66",
+    "word": "question",
+    "phonetic": "/ˈkwestʃən/",
+    "chinese": "问题；疑问",
+    "sentence": "Never be afraid to ask a question.",
+    "sentenceZh": "永远不要害怕提问。",
+    "paragraph": "Asking questions is how we learn. Never be afraid to ask a question in class, because chances are, many other students have the same question but are too shy to speak up. A brave question helps everyone.",
+    "paragraphZh": "提问是我们学习的方式。永远不要害怕在课堂上提问，因为很可能很多其他同学也有同样的问题，但太害羞而不敢说出来。一个勇敢的问题帮助所有人。"
+  },
+  {
+    "id": "67",
+    "word": "answer",
+    "phonetic": "/ˈænsər/",
+    "chinese": "回答；答案",
+    "sentence": "She knew the answer right away.",
+    "sentenceZh": "她马上就知道答案了。",
+    "paragraph": "The teacher asked a tricky math question. She knew the answer right away and raised her hand confidently. She explained her thinking step by step. The whole class was impressed by her clear explanation.",
+    "paragraphZh": "老师问了一道棘手的数学题。她马上就知道答案了，自信地举起手。她一步一步地解释她的思路。全班对她清晰的解释印象深刻。"
+  },
+  {
+    "id": "68",
+    "word": "finish",
+    "phonetic": "/ˈfɪnɪʃ/",
+    "chinese": "完成；结束",
+    "sentence": "I finish my homework before watching TV.",
+    "sentenceZh": "我在看电视前完成作业。",
+    "paragraph": "Rules at home help everyone feel organized. I finish my homework before watching TV every evening. It is a rule my parents made, and I have learned to appreciate it because I always feel better afterward.",
+    "paragraphZh": "家里的规则帮助每个人感到有条理。我每天晚上在看电视前完成作业。这是我父母制定的规则，我学会了欣赏它，因为事后我总是感觉更好。"
+  },
+  {
+    "id": "69",
+    "word": "begin",
+    "phonetic": "/bɪˈɡɪn/",
+    "chinese": "开始；起始",
+    "sentence": "Let us begin with a warm-up exercise.",
+    "sentenceZh": "让我们从热身运动开始。",
+    "paragraph": "Our PE teacher always starts class in a fun way. Let us begin with a warm-up exercise, she says. We stretch our arms and jump in place. After two minutes, everyone is ready and full of energy.",
+    "paragraphZh": "我们的体育老师总是以有趣的方式开始课堂。她说，让我们从热身运动开始。我们伸展手臂，原地跳跃。两分钟后，每个人都准备好了，充满活力。"
+  },
+  {
+    "id": "70",
+    "word": "smile",
+    "phonetic": "/smaɪl/",
+    "chinese": "微笑",
+    "sentence": "A smile can make someone's day better.",
+    "sentenceZh": "一个微笑可以让某人的一天变得更美好。",
+    "paragraph": "Small acts of kindness matter. A smile can make someone's day better without you even realizing it. I try to smile at everyone I see in the school hallway. It costs nothing and means so much.",
+    "paragraphZh": "小小的善举很重要。一个微笑可以让某人的一天变得更美好，而你甚至没有意识到这一点。我尽量对我在学校走廊看到的每个人微笑。它不需要任何代价，却意义重大。"
+  },
+  {
+    "id": "71",
+    "word": "gift",
+    "phonetic": "/ɡɪft/",
+    "chinese": "礼物；天赋",
+    "sentence": "She gave me a birthday gift last week.",
+    "sentenceZh": "她上周给了我一份生日礼物。",
+    "paragraph": "My birthday was extra special this year. She gave me a birthday gift last week: a beautiful journal with my name on the cover. I was so touched that I gave her the biggest hug.",
+    "paragraphZh": "今年我的生日格外特别。她上周给了我一份生日礼物：一本封面上有我名字的漂亮日记本。我感动得给了她一个大大的拥抱。"
+  },
+  {
+    "id": "72",
+    "word": "heart",
+    "phonetic": "/hɑːrt/",
+    "chinese": "心；心脏",
+    "sentence": "I drew a heart for my mother on her card.",
+    "sentenceZh": "我在妈妈的贺卡上画了一个心形。",
+    "paragraph": "Mother's Day is very important to me. I drew a heart for my mother on her card and wrote how much I love her. She held the card tightly and tears of happiness rolled down her cheeks.",
+    "paragraphZh": "母亲节对我来说非常重要。我在妈妈的贺卡上画了一个心形，写下了我有多爱她。她紧紧地握着贺卡，幸福的泪水从她的脸颊滚落。"
+  },
+  {
+    "id": "73",
+    "word": "dream",
+    "phonetic": "/driːm/",
+    "chinese": "梦；梦想",
+    "sentence": "My dream is to become a scientist.",
+    "sentenceZh": "我的梦想是成为一名科学家。",
+    "paragraph": "Everyone should have a dream. My dream is to become a scientist and discover things that help people. I study hard in science class every day. I believe if I keep working, I can make it happen.",
+    "paragraphZh": "每个人都应该有一个梦想。我的梦想是成为一名科学家，发现能帮助人们的东西。我每天在科学课上努力学习。我相信只要我继续努力，就能实现它。"
+  },
+  {
+    "id": "74",
+    "word": "magic",
+    "phonetic": "/ˈmædʒɪk/",
+    "chinese": "魔法；神奇",
+    "sentence": "Reading feels like magic to me.",
+    "sentenceZh": "阅读对我来说感觉像魔法。",
+    "paragraph": "Books can take you anywhere in the world. Reading feels like magic to me because in one minute I am sitting at home, and the next I am on a pirate ship or exploring a jungle. That is the power of imagination.",
+    "paragraphZh": "书籍可以带你去世界上任何地方。阅读对我来说感觉像魔法，因为一分钟前我还坐在家里，下一分钟我就在海盗船上或探索丛林中。这就是想象力的力量。"
+  },
+  {
+    "id": "75",
+    "word": "story",
+    "phonetic": "/ˈstɔːri/",
+    "chinese": "故事",
+    "sentence": "My grandpa tells the best bedtime stories.",
+    "sentenceZh": "我爷爷讲的睡前故事最好听。",
+    "paragraph": "Visiting my grandparents is always special. My grandpa tells the best bedtime stories about dragons and brave children who save the day. I fall asleep every time with a big smile on my face.",
+    "paragraphZh": "拜访爷爷奶奶总是很特别。我爷爷讲的关于龙和勇敢孩子拯救世界的睡前故事最好听了。每次我都带着大大的微笑入睡。"
+  },
+  {
+    "id": "76",
+    "word": "nature",
+    "phonetic": "/ˈneɪtʃər/",
+    "chinese": "自然；大自然",
+    "sentence": "I love spending time in nature.",
+    "sentenceZh": "我喜欢在大自然中度过时光。",
+    "paragraph": "Getting outside is good for the body and mind. I love spending time in nature, whether it is hiking in the mountains or relaxing by a stream. The fresh air and quiet sounds always make me feel at peace.",
+    "paragraphZh": "走到户外对身心都有好处。我喜欢在大自然中度过时光，无论是在山上徒步还是在小溪边放松。新鲜的空气和宁静的声音总是让我感到平静。"
+  },
+  {
+    "id": "77",
+    "word": "animal",
+    "phonetic": "/ˈænɪml/",
+    "chinese": "动物",
+    "sentence": "My favorite animal is the dolphin.",
+    "sentenceZh": "我最喜欢的动物是海豚。",
+    "paragraph": "I love watching nature documentaries. My favorite animal is the dolphin because they are playful, intelligent, and swim so gracefully. One day I hope to see them in the wild ocean.",
+    "paragraphZh": "我喜欢看自然纪录片。我最喜欢的动物是海豚，因为它们爱玩、聪明，游泳非常优雅。有一天我希望能在野外的海洋中看到它们。"
+  },
+  {
+    "id": "78",
+    "word": "ocean",
+    "phonetic": "/ˈoʊʃn/",
+    "chinese": "海洋；大海",
+    "sentence": "The ocean is home to millions of creatures.",
+    "sentenceZh": "海洋是数百万生物的家园。",
+    "paragraph": "The ocean covers most of our planet. The ocean is home to millions of creatures, from tiny fish to huge whales. We must protect the ocean by keeping it clean and free of pollution.",
+    "paragraphZh": "海洋覆盖了我们星球的大部分地方。海洋是数百万生物的家园，从小鱼到巨大的鲸鱼。我们必须通过保持海洋清洁、没有污染来保护它。"
+  },
+  {
+    "id": "79",
+    "word": "mountain",
+    "phonetic": "/ˈmaʊntən/",
+    "chinese": "山；山脉",
+    "sentence": "The mountains are covered in snow.",
+    "sentenceZh": "山上覆盖着雪。",
+    "paragraph": "We went on a school trip last winter. The mountains are covered in snow and the views were breathtaking. Standing at the top, I felt small but also amazed by how beautiful our world is.",
+    "paragraphZh": "去年冬天我们进行了一次学校旅行。山上覆盖着雪，景色令人叹为观止。站在山顶，我感到自己很渺小，但也为我们的世界是多么美丽而惊叹。"
+  },
+  {
+    "id": "80",
+    "word": "future",
+    "phonetic": "/ˈfjuːtʃər/",
+    "chinese": "未来；将来",
+    "sentence": "I am excited about my future.",
+    "sentenceZh": "我对自己的未来感到兴奋。",
+    "paragraph": "The future belongs to those who prepare today. I am excited about my future because I have many dreams and goals. I study hard, stay curious, and try to be kind every day so that I can build the life I imagine.",
+    "paragraphZh": "未来属于那些今天就做好准备的人。我对自己的未来感到兴奋，因为我有很多梦想和目标。我努力学习，保持好奇心，每天尽力保持善良，这样我就能建立我想象中的生活。"
+  },
+  {
+    "id": "81",
+    "word": "pen",
+    "phonetic": "/pen/",
+    "chinese": "钢笔",
+    "sentence": "I write my homework with a blue pen.",
+    "sentenceZh": "我用一支蓝色钢笔写作业。",
+    "paragraph": "A good pen helps me write neatly. I write my homework with a blue pen every evening. When the ink runs out, I replace it quickly and continue studying.",
+    "paragraphZh": "一支好钢笔能让我写得工整。我每天晚上都用一支蓝色钢笔写作业。当墨水用完时，我会很快换一支继续学习。"
+  },
+  {
+    "id": "82",
+    "word": "pencil",
+    "phonetic": "/ˈpensl/",
+    "chinese": "铅笔",
+    "sentence": "I draw a house with my pencil.",
+    "sentenceZh": "我用铅笔画了一座房子。",
+    "paragraph": "My pencil case is always full. I draw a house with my pencil in art class. If I make a mistake, I use an eraser and try again.",
+    "paragraphZh": "我的铅笔盒总是装得满满的。我在美术课上用铅笔画一座房子。如果我画错了，我会用橡皮擦掉再试一次。"
+  },
+  {
+    "id": "83",
+    "word": "eraser",
+    "phonetic": "/ɪˈreɪsər/",
+    "chinese": "橡皮",
+    "sentence": "This eraser is small but useful.",
+    "sentenceZh": "这块橡皮很小但很有用。",
+    "paragraph": "I keep an eraser in my pencil case every day. This eraser is small but useful. It helps me fix mistakes and keeps my notebook clean.",
+    "paragraphZh": "我每天都在铅笔盒里放一块橡皮。这块橡皮很小但很有用。它能帮我改正错误，让我的作业本更整洁。"
+  },
+  {
+    "id": "84",
+    "word": "ruler",
+    "phonetic": "/ˈruːlər/",
+    "chinese": "尺子",
+    "sentence": "Use a ruler to draw straight lines.",
+    "sentenceZh": "用尺子画直线。",
+    "paragraph": "Math class needs good tools. Use a ruler to draw straight lines in your notebook. Clear lines make my homework easy to read.",
+    "paragraphZh": "数学课需要好工具。用尺子在本子上画直线。清晰的线条让我的作业更容易阅读。"
+  },
+  {
+    "id": "85",
+    "word": "desk",
+    "phonetic": "/desk/",
+    "chinese": "书桌",
+    "sentence": "My desk is clean and tidy.",
+    "sentenceZh": "我的书桌干净整洁。",
+    "paragraph": "I clean my desk every Friday. My desk is clean and tidy, so I can find my books quickly. A neat desk helps me focus on study.",
+    "paragraphZh": "我每周五都会整理书桌。我的书桌干净整洁，所以我能很快找到书。整洁的书桌能帮助我专心学习。"
+  },
+  {
+    "id": "86",
+    "word": "chair",
+    "phonetic": "/tʃer/",
+    "chinese": "椅子",
+    "sentence": "Please put your chair under the table.",
+    "sentenceZh": "请把椅子推到桌子下面。",
+    "paragraph": "Our classroom has simple rules. Please put your chair under the table before leaving. Good habits keep the room safe and tidy.",
+    "paragraphZh": "我们的教室有一些简单规则。离开前请把椅子推到桌子下面。好习惯能让教室更安全更整洁。"
+  },
+  {
+    "id": "87",
+    "word": "door",
+    "phonetic": "/dɔːr/",
+    "chinese": "门",
+    "sentence": "Please close the door quietly.",
+    "sentenceZh": "请轻轻关门。",
+    "paragraph": "Good manners matter at school and home. Please close the door quietly when class begins. That way we can study without noise.",
+    "paragraphZh": "无论在学校还是家里，礼貌都很重要。上课开始时请轻轻关门。这样我们就能安静学习。"
+  },
+  {
+    "id": "88",
+    "word": "window",
+    "phonetic": "/ˈwɪndoʊ/",
+    "chinese": "窗户",
+    "sentence": "Open the window for fresh air.",
+    "sentenceZh": "打开窗户让新鲜空气进来。",
+    "paragraph": "The classroom feels better with fresh air. Open the window for fresh air in the morning. Sunlight and air make us feel awake.",
+    "paragraphZh": "有了新鲜空气，教室会更舒服。早上打开窗户让新鲜空气进来。阳光和空气会让我们更有精神。"
+  },
+  {
+    "id": "89",
+    "word": "clock",
+    "phonetic": "/klɑːk/",
+    "chinese": "时钟",
+    "sentence": "The clock says it is seven o'clock.",
+    "sentenceZh": "时钟显示现在七点整。",
+    "paragraph": "Time is important for students. The clock says it is seven o'clock, so I pack my bag and get ready for school.",
+    "paragraphZh": "时间对学生很重要。时钟显示现在七点整，所以我收拾书包准备上学。"
+  },
+  {
+    "id": "90",
+    "word": "time",
+    "phonetic": "/taɪm/",
+    "chinese": "时间",
+    "sentence": "It is time to do my homework.",
+    "sentenceZh": "该做作业了。",
+    "paragraph": "I make a simple schedule every day. It is time to do my homework after dinner. Finishing tasks on time gives me more free time later.",
+    "paragraphZh": "我每天都会制定简单的时间表。晚饭后就是做作业的时间。按时完成任务能让我之后有更多自由时间。"
+  },
+  {
+    "id": "91",
+    "word": "morning",
+    "phonetic": "/ˈmɔːrnɪŋ/",
+    "chinese": "早晨",
+    "sentence": "I get up early every morning.",
+    "sentenceZh": "我每天早晨都起得很早。",
+    "paragraph": "A good morning starts a good day. I get up early every morning, wash my face, and eat breakfast before school.",
+    "paragraphZh": "美好的早晨会开启美好的一天。我每天早晨都早起，洗脸，然后在上学前吃早餐。"
+  },
+  {
+    "id": "92",
+    "word": "evening",
+    "phonetic": "/ˈiːvnɪŋ/",
+    "chinese": "傍晚；晚上",
+    "sentence": "We take a walk in the evening.",
+    "sentenceZh": "我们傍晚会去散步。",
+    "paragraph": "Evenings are relaxing in my family. We take a walk in the evening after dinner and talk about our day together.",
+    "paragraphZh": "在我们家，晚上的时光很放松。晚饭后我们会去散步，一起聊聊今天发生的事。"
+  },
+  {
+    "id": "93",
+    "word": "today",
+    "phonetic": "/təˈdeɪ/",
+    "chinese": "今天",
+    "sentence": "Today is a sunny and happy day.",
+    "sentenceZh": "今天是阳光明媚又开心的一天。",
+    "paragraph": "I like to start each day with a smile. Today is a sunny and happy day, and I plan to finish all my tasks before playtime.",
+    "paragraphZh": "我喜欢每天都微笑开始。今天是阳光明媚又开心的一天，我计划在玩耍前完成所有任务。"
+  },
+  {
+    "id": "94",
+    "word": "tomorrow",
+    "phonetic": "/təˈmɑːroʊ/",
+    "chinese": "明天",
+    "sentence": "Tomorrow we will have a math test.",
+    "sentenceZh": "明天我们要进行数学测试。",
+    "paragraph": "Planning ahead helps me feel calm. Tomorrow we will have a math test, so I review my notes carefully tonight.",
+    "paragraphZh": "提前计划让我更从容。明天我们要进行数学测试，所以今晚我会认真复习笔记。"
+  },
+  {
+    "id": "95",
+    "word": "happy",
+    "phonetic": "/ˈhæpi/",
+    "chinese": "开心的",
+    "sentence": "I feel happy when I help others.",
+    "sentenceZh": "当我帮助别人时我会感到开心。",
+    "paragraph": "Kindness brings joy to everyone. I feel happy when I help others, even in small ways like sharing books or cleaning the classroom.",
+    "paragraphZh": "善良会给每个人带来快乐。当我帮助别人时我会感到开心，即使只是分享书本或打扫教室这样的小事。"
+  },
+  {
+    "id": "96",
+    "word": "sad",
+    "phonetic": "/sæd/",
+    "chinese": "难过的",
+    "sentence": "I feel sad when my friend is sick.",
+    "sentenceZh": "当我的朋友生病时我会难过。",
+    "paragraph": "Feelings are natural and important. I feel sad when my friend is sick, so I send a card and wish him a quick recovery.",
+    "paragraphZh": "情绪是自然且重要的。当我的朋友生病时我会难过，所以我会送一张卡片并祝他早日康复。"
+  },
+  {
+    "id": "97",
+    "word": "fast",
+    "phonetic": "/fæst/",
+    "chinese": "快的",
+    "sentence": "He can run very fast.",
+    "sentenceZh": "他跑得非常快。",
+    "paragraph": "Sports day is always exciting. He can run very fast and often wins races, but he is also kind to everyone.",
+    "paragraphZh": "运动会总是很精彩。他跑得非常快，经常赢得比赛，但他对每个人也都很友善。"
+  },
+  {
+    "id": "98",
+    "word": "slow",
+    "phonetic": "/sloʊ/",
+    "chinese": "慢的",
+    "sentence": "Please speak slowly for me.",
+    "sentenceZh": "请慢一点说给我听。",
+    "paragraph": "Learning takes time and patience. Please speak slowly for me when I hear new words. Then I can repeat them clearly.",
+    "paragraphZh": "学习需要时间和耐心。当我听到新单词时，请慢一点说给我听。这样我就能清楚地跟读。"
+  },
+  {
+    "id": "99",
+    "word": "clean",
+    "phonetic": "/kliːn/",
+    "chinese": "干净的；打扫",
+    "sentence": "We clean the classroom every Friday.",
+    "sentenceZh": "我们每周五都会打扫教室。",
+    "paragraph": "A clean room feels comfortable. We clean the classroom every Friday and put things back in order before going home.",
+    "paragraphZh": "干净的房间会让人感觉舒适。我们每周五都会打扫教室，回家前把物品摆放整齐。"
+  },
+  {
+    "id": "100",
+    "word": "dirty",
+    "phonetic": "/ˈdɜːrti/",
+    "chinese": "脏的",
+    "sentence": "My shoes are dirty after playing soccer.",
+    "sentenceZh": "踢完足球后我的鞋子很脏。",
+    "paragraph": "Outdoor games are fun but messy. My shoes are dirty after playing soccer, so I wash them before entering the house.",
+    "paragraphZh": "户外游戏很好玩但会弄脏东西。踢完足球后我的鞋子很脏，所以进家门前我会先把它们洗干净。"
+  },
+  {
+    "id": "101",
+    "word": "open",
+    "phonetic": "/ˈoʊpən/",
+    "chinese": "打开",
+    "sentence": "Please open your English book.",
+    "sentenceZh": "请打开你的英语书。",
+    "paragraph": "Our teacher starts class with clear instructions. Please open your English book and read the first paragraph aloud.",
+    "paragraphZh": "老师上课时会给出清晰指令。请打开你的英语书，并大声朗读第一段。"
+  },
+  {
+    "id": "102",
+    "word": "close",
+    "phonetic": "/kloʊz/",
+    "chinese": "关闭",
+    "sentence": "Close the window when it is cold.",
+    "sentenceZh": "天冷的时候把窗户关上。",
+    "paragraph": "Weather changes quickly in winter. Close the window when it is cold, and remember to wear a warm coat.",
+    "paragraphZh": "冬天天气变化很快。天冷的时候把窗户关上，并记得穿上暖和的外套。"
+  },
+  {
+    "id": "103",
+    "word": "question",
+    "phonetic": "/ˈkwestʃən/",
+    "chinese": "问题",
+    "sentence": "I have a question about this word.",
+    "sentenceZh": "我对这个单词有个问题。",
+    "paragraph": "Asking questions helps us learn better. I have a question about this word, so I raise my hand and ask the teacher.",
+    "paragraphZh": "提问能帮助我们学得更好。我对这个单词有个问题，所以我举手问老师。"
+  },
+  {
+    "id": "104",
+    "word": "answer",
+    "phonetic": "/ˈænsər/",
+    "chinese": "答案；回答",
+    "sentence": "Can you answer this easy question?",
+    "sentenceZh": "你能回答这个简单的问题吗？",
+    "paragraph": "Our class has quiz time every week. Can you answer this easy question? I think carefully before speaking.",
+    "paragraphZh": "我们班每周都有小测问答时间。你能回答这个简单的问题吗？我会在发言前认真思考。"
+  },
+  {
+    "id": "105",
+    "word": "picture",
+    "phonetic": "/ˈpɪktʃər/",
+    "chinese": "图片；图画",
+    "sentence": "This picture is very beautiful.",
+    "sentenceZh": "这张图片非常漂亮。",
+    "paragraph": "Art makes our world colorful. This picture is very beautiful, with bright flowers and a blue sky.",
+    "paragraphZh": "艺术让我们的世界更加多彩。这张图片非常漂亮，有鲜艳的花朵和蓝色的天空。"
+  },
+  {
+    "id": "106",
+    "word": "music",
+    "phonetic": "/ˈmjuːzɪk/",
+    "chinese": "音乐",
+    "sentence": "I listen to music after homework.",
+    "sentenceZh": "我做完作业后会听音乐。",
+    "paragraph": "Music helps me relax after study. I listen to music after homework and sing softly with my sister.",
+    "paragraphZh": "音乐能让我在学习后放松。我做完作业后会听音乐，还会和妹妹轻声一起唱。"
+  },
+  {
+    "id": "107",
+    "word": "dance",
+    "phonetic": "/dæns/",
+    "chinese": "跳舞",
+    "sentence": "We dance together in PE class.",
+    "sentenceZh": "我们在体育课上一起跳舞。",
+    "paragraph": "Moving our bodies is fun and healthy. We dance together in PE class and follow the teacher's steps.",
+    "paragraphZh": "活动身体既有趣又健康。我们在体育课上一起跳舞，跟着老师的动作做。"
+  },
+  {
+    "id": "108",
+    "word": "travel",
+    "phonetic": "/ˈtrævl/",
+    "chinese": "旅行",
+    "sentence": "I want to travel with my family this summer.",
+    "sentenceZh": "这个夏天我想和家人一起旅行。",
+    "paragraph": "Travel helps us learn new things. I want to travel with my family this summer and visit a museum in another city.",
+    "paragraphZh": "旅行能让我们学到新东西。这个夏天我想和家人一起旅行，去另一个城市参观博物馆。"
+  },
+  {
+    "id": "109",
+    "word": "holiday",
+    "phonetic": "/ˈhɑːlədeɪ/",
+    "chinese": "假期",
+    "sentence": "We have a long holiday in winter.",
+    "sentenceZh": "我们冬天有一个长假期。",
+    "paragraph": "Holidays are great for rest and family time. We have a long holiday in winter, and I read books and play games at home.",
+    "paragraphZh": "假期很适合休息和陪伴家人。我们冬天有一个长假期，我会在家读书和玩游戏。"
+  },
+  {
+    "id": "110",
+    "word": "health",
+    "phonetic": "/helθ/",
+    "chinese": "健康",
+    "sentence": "Running is good for our health.",
+    "sentenceZh": "跑步对我们的健康有好处。",
+    "paragraph": "Healthy habits start from small actions. Running is good for our health, and eating fresh food helps us stay strong.",
+    "paragraphZh": "健康习惯始于小行动。跑步对我们的健康有好处，吃新鲜食物也能让我们更强壮。"
+  }
+]
