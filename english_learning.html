@@ -1657,6 +1657,7 @@ function changeTTSEngine() {
 
 function updateTTSStatus() {
   const el = document.getElementById('tts-status');
+  if (!el) return;
   const names = { youdao: '有道词典', tencent: '腾讯翻译', browser: '浏览器 TTS' };
   el.className = 'tts-status ok';
   el.textContent = '✓ ' + names[currentTTSEngine] + '已就绪';
@@ -1761,7 +1762,13 @@ let state = {
   startTime: null,
 };
 
-let userData = JSON.parse(localStorage.getItem('yx_userdata') || '{}');
+let userData;
+try {
+  userData = JSON.parse(localStorage.getItem('yx_userdata') || '{}');
+} catch(e) {
+  console.warn('userData 解析失败，重置为空对象');
+  userData = {};
+}
 if (!userData.wrongBook) userData.wrongBook = {};
 if (!userData.totalWords) userData.totalWords = 0;
 if (!userData.streak) userData.streak = 0;
@@ -1773,7 +1780,22 @@ if (!userData.history) userData.history = [];
 if (!userData.dailyGoal) userData.dailyGoal = 30;
 if (!userData.customBooks) userData.customBooks = [];
 
-function saveUserData() { localStorage.setItem('yx_userdata', JSON.stringify(userData)); }
+function saveUserData() {
+  try {
+    localStorage.setItem('yx_userdata', JSON.stringify(userData));
+  } catch(e) {
+    console.warn('存储空间不足，尝试清理旧数据');
+    if (e.name === 'QuotaExceededError') {
+      // 清理超过30天的历史记录来释放空间
+      if (userData.history && userData.history.length > 10) {
+        userData.history = userData.history.slice(0, 10);
+        try { localStorage.setItem('yx_userdata', JSON.stringify(userData)); } catch(e2) {
+          showToast('存储空间不足，部分数据可能无法保存');
+        }
+      }
+    }
+  }
+}
 
 // ===================================================
 // 页面导航
@@ -1807,9 +1829,9 @@ function renderBooks() {
   el.innerHTML = books.map(book => {
     const progress = userData['progress_' + book.id] || 0;
     const pct = Math.round((progress / book.words.length) * 100);
-    return '<div class="book-card ' + book.color + '" onclick="selectBook(\'' + book.id + '\',\'' + state.currentGrade + '\')" onmouseenter="playHoverSound()">' +
-      '<div class="book-name">' + book.name + '</div>' +
-      '<div class="book-info"><span>' + book.grade + '</span><span class="book-count">' + book.words.length + ' ' + countLabel + '</span></div>' +
+    return '<div class="book-card ' + escapeHtml(book.color || '') + '" onclick="selectBook(\'' + escapeHtml(book.id) + '\',\'' + escapeHtml(state.currentGrade) + '\')" onmouseenter="playHoverSound()">' +
+      '<div class="book-name">' + escapeHtml(book.name) + '</div>' +
+      '<div class="book-info"><span>' + escapeHtml(book.grade || '') + '</span><span class="book-count">' + book.words.length + ' ' + countLabel + '</span></div>' +
       '<div class="book-progress-bar"><div class="book-progress-fill" style="width:' + pct + '%"></div></div>' +
       '<div style="font-size:11px;color:var(--text-light);margin-top:6px;">已学 ' + pct + '%</div></div>';
   }).join('');
@@ -2126,7 +2148,7 @@ function renderChoiceOptions(word) {
   const opts = [word, ...others.slice(0, 3)];
   shuffle(opts);
   const c = document.getElementById('choice-options');
-  c.innerHTML = opts.map((o, i) => '<div class="choice-btn" onclick="submitChoice(\'' + o.w + '\', this)"><span class="choice-letter">' + 'ABCD'[i] + '</span>' + o.cn + '</div>').join('');
+  c.innerHTML = opts.map((o, i) => '<div class="choice-btn" onclick="submitChoice(\'' + escapeHtml(o.w) + '\', this)"><span class="choice-letter">' + 'ABCD'[i] + '</span>' + escapeHtml(o.cn) + '</div>').join('');
 }
 
 function submitChoice(sel, el) {
@@ -2287,7 +2309,7 @@ function renderWrongList() {
   btn.style.display = '';
   wrong.sort((a, b) => b.count - a.count);
   el.innerHTML = wrong.map(w =>
-    '<div class="wrong-item"><div class="wrong-word">' + w.w + '</div><div class="wrong-info"><div class="wrong-cn">' + w.cn + '</div><div class="wrong-phonetic">' + (w.ph || '') + '</div></div><div class="wrong-count">错 ' + w.count + ' 次</div><button onclick="deleteWrong(\'' + w.w + '\')" class="btn-del-wrong">' + fi('close','md','var(--text-light)') + '</button></div>'
+    '<div class="wrong-item"><div class="wrong-word">' + escapeHtml(w.w) + '</div><div class="wrong-info"><div class="wrong-cn">' + escapeHtml(w.cn) + '</div><div class="wrong-phonetic">' + escapeHtml(w.ph || '') + '</div></div><div class="wrong-count">错 ' + w.count + ' 次</div><button onclick="deleteWrong(\'' + escapeHtml(w.w) + '\')" class="btn-del-wrong">' + fi('close','md','var(--text-light)') + '</button></div>'
   ).join('');
 }
 
@@ -2298,7 +2320,7 @@ function deleteWrong(w) {
 // ===================================================
 // 统计
 // ===================================================
-const modeNames = { dictation: '单词练习', flashcard: '翻卡', choice: '选择题' };
+const modeNames = { dictation: '单词练习', flashcard: '翻卡', choice: '选择题', sentence: '句子练习' };
 
 function renderStats() {
   const wrong = Object.values(userData.wrongBook).length;
@@ -2465,7 +2487,7 @@ function renderCustomList() {
     return;
   }
   el.innerHTML = books.map((book, i) =>
-    '<div class="custom-item"><div style="font-size:28px;">📝</div><div class="custom-item-info"><div class="custom-item-name">' + book.name + '</div><div class="custom-item-meta">' + book.words.length + ' 词 · ' + (book.createdAt || '').slice(0, 10) + '</div></div><div class="custom-item-actions"><button class="btn btn-primary btn-sm" onclick="startCustomBook(' + i + ')">开始学习</button><button class="btn btn-danger btn-sm" onclick="deleteCustomBook(' + i + ')">删除</button></div></div>'
+    '<div class="custom-item"><div style="font-size:28px;">📝</div><div class="custom-item-info"><div class="custom-item-name">' + escapeHtml(book.name) + '</div><div class="custom-item-meta">' + book.words.length + ' 词 · ' + escapeHtml((book.createdAt || '').slice(0, 10)) + '</div></div><div class="custom-item-actions"><button class="btn btn-primary btn-sm" onclick="startCustomBook(' + i + ')">开始学习</button><button class="btn btn-danger btn-sm" onclick="deleteCustomBook(' + i + ')">删除</button></div></div>'
   ).join('');
 }
 
@@ -2873,6 +2895,9 @@ function showToast(msg) {
   setTimeout(() => t.classList.remove('show'), 2000);
 }
 
+// HTML转义，防止XSS
+function escapeHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/'/g,'&#39;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
 function shuffle(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -2881,8 +2906,8 @@ function shuffle(arr) {
   return arr;
 }
 
-function getTodayStr() { return new Date().toISOString().slice(0, 10); }
-function getYesterdayStr() { const d = new Date(); d.setDate(d.getDate() - 1); return d.toISOString().slice(0, 10); }
+function getTodayStr() { const d = new Date(); return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0'); }
+function getYesterdayStr() { const d = new Date(); d.setDate(d.getDate() - 1); return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0'); }
 function formatTime(s) { return s < 60 ? s + 's' : Math.floor(s / 60) + 'm' + (s % 60) + 's'; }
 
 // ===================================================
